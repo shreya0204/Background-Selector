@@ -1,4 +1,71 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right,#ff6e7f, #bfe9ff);
+}
+
+/* Container Wrapping All Elements */
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Heading to the top of the page  */
+.heading {
+  margin-top: 8vh;  
+  text-align: center;
+}
+
+/* Main Heading */
+.main_heading {
+  font-size: 45px;
+  font-family: "Red Hat Display", sans-serif;
+  margin-bottom: 4%;
+
+}
+
+/* Botton para */
+.sec_han{
+    font-size: 20px;
+  font-family: "Patrick Hand", cursive;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.beautiful{
+    font-size: 35px;
+  font-family: "Caveat", cursive;
+
+}
+
+
+/* Both the color inputs  */
+.color_part {
+  margin-top: 5vh;
+}
+
+.left_color, .right_color{
+    position:relative;
+    border: none;
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+}
+
+.left_color:hover, .right_color:hover{
+    height: 55px;
+    width: 55px;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+
+/* Bottom text */
+.bottom_text {
+  margin-top: 4vh;
+  background-color: tomato;
 }
