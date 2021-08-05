@@ -4,7 +4,7 @@
 }
 
 body {
-  background: linear-gradient(to right,#ff6e7f, #bfe9ff);
+  background: linear-gradient(to right, #8A2387, #E94057);
 }
 
 /* Container Wrapping All Elements */
@@ -16,9 +16,9 @@ body {
   align-items: center;
 }
 
-/* Heading to the top of the page  */
+/* Heading Section to the top of the page  */
 .heading {
-  margin-top: 8vh;  
+  margin-top: 8vh;
   text-align: center;
 }
 
@@ -27,45 +27,69 @@ body {
   font-size: 45px;
   font-family: "Red Hat Display", sans-serif;
   margin-bottom: 4%;
-
 }
 
 /* Botton para */
-.sec_han{
-    font-size: 20px;
-  font-family: "Patrick Hand", cursive;
+.sec_han {
+  font-size: 20px;
   font-family: "Red Hat Display", sans-serif;
 }
 
-.beautiful{
-    font-size: 35px;
+.beautiful {
+  font-size: 35px;
   font-family: "Caveat", cursive;
-
 }
-
 
 /* Both the color inputs  */
 .color_part {
   margin-top: 5vh;
 }
 
-.left_color, .right_color{
-    position:relative;
-    border: none;
-    background-color: transparent;
-    height: 50px;
-    width: 50px;
+.left_color,
+.right_color {
+  position: relative;
+  background-color: transparent;
+  height: 50px;
+  border: none;
+  width: 50px;
+  color: blue;
 }
 
-.left_color:hover, .right_color:hover{
-    height: 55px;
-    width: 55px;
-    transition: 0.3s ease-out;
-    cursor: pointer;
+.right_color{
+  margin-left: 20px;
+}
+
+.left_color:hover,
+.right_color:hover {
+  height: 55px;
+  width: 55px;
+  transition: 0.3s ease-out;
+  cursor: pointer;
 }
 
 /* Bottom text */
 .bottom_text {
   margin-top: 4vh;
-  background-color: tomato;
+}
+
+.color_text{
+  font-family: "Red Hat Display", sans-serif;
+  word-spacing: 20px;
+}
+
+.white {
+  color: white;
+}
+
+
+@media screen and (max-width: 769px){
+  .main_heading{
+    font-size: 35px;
+  }
+  .sec_han{
+    font-size: 15px;
+  }
+  .color_text{
+    font-size: 15px;
+  }
 }
